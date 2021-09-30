@@ -12,5 +12,5 @@ node{
         !**/*.htmls, !**/*.ihtml, !**/*.mht, !**/*.mhtm, !**/*.mhtml, !**/*.ssi, !**/*.stm,
         !**/*.bin,!**/*.lock,!**/*.svg,!**/*.obj,
         !**/*.stml, !**/*.ttml, !**/*.txn, !**/*.xhtm, !**/*.xhtml, !**/*.class, !**/*.iml, !Checkmarx/Reports/*.*,
-        !OSADependencies.json, !**/node_modules/**/*''', fullScanCycle: 10, password: '{AQAAABAAAAAQ4i5YnPCm5CzFOOQlQEfN3gqxpgg/2YNQSjndNSZGESU=}', projectName: 'job1', sastEnabled: true, serverUrl: '', sourceEncoding: 'Provide Checkmarx server credentials to see source encodings list', username: ''])
+        !OSADependencies.json, !**/node_modules/**/*''', fullScanCycle: 10, password: '{AQAAABAAAAAQ4i5YnPCm5CzFOOQlQEfN3gqxpgg/2YNQSjndNSZGESU=}', projectName: 'job1', sastEnabled: true, serverUrl: '', sourceEncoding: 'Provide Checkmarx server credentials to see source encodings list', username: 'admin'])
 }
