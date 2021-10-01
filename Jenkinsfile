@@ -1,5 +1,6 @@
-node{
-    step([$class: 'CxScanBuilder', addGlobalCommenToBuildCommet: true, comment: '', configAsCode: true, credentialsId: '', excludeFolders: '', exclusionsSetting: 'global', failBuildOnNewResults: false, filterPattern: '''!**/_cvs/**/*, !**/.svn/**/*, !**/.hg/**/*, !**/.git/**/*, !**/.bzr/**/*,
+node
+{
+    step([$class: 'CxScanBuilder', addGlobalCommenToBuildCommet: true, comment: '', configAsCode: true, credentialsId: '', enableProjectPolicyEnforcement: true, excludeFolders: '', exclusionsSetting: 'global', failBuildOnNewResults: false, filterPattern: '''!**/_cvs/**/*, !**/.svn/**/*, !**/.hg/**/*, !**/.git/**/*, !**/.bzr/**/*,
         !**/.gitgnore/**/*, !**/.gradle/**/*, !**/.checkstyle/**/*, !**/.classpath/**/*, !**/bin/**/*,
         !**/obj/**/*, !**/backup/**/*, !**/.idea/**/*, !**/*.DS_Store, !**/*.ipr, !**/*.iws,
         !**/*.bak, !**/*.tmp, !**/*.aac, !**/*.aif, !**/*.iff, !**/*.m3u, !**/*.mid, !**/*.mp3,
@@ -12,5 +13,5 @@ node{
         !**/*.htmls, !**/*.ihtml, !**/*.mht, !**/*.mhtm, !**/*.mhtml, !**/*.ssi, !**/*.stm,
         !**/*.bin,!**/*.lock,!**/*.svg,!**/*.obj,
         !**/*.stml, !**/*.ttml, !**/*.txn, !**/*.xhtm, !**/*.xhtml, !**/*.class, !**/*.iml, !Checkmarx/Reports/*.*,
-        !OSADependencies.json, !**/node_modules/**/*''', fullScanCycle: 10, password: '{AQAAABAAAAAQ4i5YnPCm5CzFOOQlQEfN3gqxpgg/2YNQSjndNSZGESU=}', projectName: 'job1', sastEnabled: true, serverUrl: '', sourceEncoding: 'Provide Checkmarx server credentials to see source encodings list', username: 'admin'])
+        !OSADependencies.json, !**/node_modules/**/*''', fullScanCycle: 10, generatePdfReport: true, password: '{AQAAABAAAAAQcuqrT/Y5vU8EpgMeGzYXo6RSAUrIWzCehgJE8CzrmRM=}', projectName: 'job1', sastEnabled: true, serverUrl: 'http://https://checkmarx.com/', sourceEncoding: 'Provide Checkmarx server credentials to see source encodings list', username: ''])
 }
